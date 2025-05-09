@@ -1,4 +1,4 @@
-![441637046-4b63a550-aecf-40ff-9e96-e3a38c73c21e](https://github.com/user-attachments/assets/3ac69b21-8991-4a96-935d-fa6427d019d1)# 🏆 Hackerrank:Runner-Up Score Finder in Python
+# 🏆 Hackerrank:Runner-Up Score Finder in Python
 
 ## 🎯 AIM:
 To write a Python program that takes a list of scores from participants and finds the **runner-up score** (i.e., the second-highest score), eliminating any duplicates.
