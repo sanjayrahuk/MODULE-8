@@ -26,11 +26,29 @@ To write a Python program to:
 ---
 
 ## 💻  Program
-
-Add Code Here
-
+```
+l1=[]
+l2=[]
+for _ in range(int(input())):
+   name = input()
+   score = float(input())
+   l1.extend([name,score])
+   l2.append(l1)
+   l1=[]
+l3=[]
+l4=[]
+for i in l2:
+  l3.append(i[1])
+l3.sort()
+for i in l2:
+  if i[1]==l3[1]:
+     l4.append(i[0])
+l4.sort()
+for i in l4:
+  print(i)
+```
 ## Output
-
+![441635886-1c544f44-ee57-4a2d-bf87-e5625f3a87ad](https://github.com/user-attachments/assets/386e6761-7dd6-4227-8fbd-ae5df7ec658f)
 ## Result
-
+Thus the program has been successfully executed
 
