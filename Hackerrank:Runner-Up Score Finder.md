@@ -1,4 +1,4 @@
-# 🏆 Hackerrank:Runner-Up Score Finder in Python
+![441637046-4b63a550-aecf-40ff-9e96-e3a38c73c21e](https://github.com/user-attachments/assets/3ac69b21-8991-4a96-935d-fa6427d019d1)# 🏆 Hackerrank:Runner-Up Score Finder in Python
 
 ## 🎯 AIM:
 To write a Python program that takes a list of scores from participants and finds the **runner-up score** (i.e., the second-highest score), eliminating any duplicates.
@@ -19,9 +19,29 @@ To write a Python program that takes a list of scores from participants and find
 ---
 
 ## 💻 PROGRAM:
-
-ADD CODE HERE
-
+```
+l1=[]
+l2=[]
+for _ in range(int(input())):
+ name = input()
+ score = float(input())
+ l1.extend([name,score])
+ l2.append(l1)
+ l1=[]
+l3=[]
+l4=[]
+for i in l2:
+ l3.append(i[1])
+l3.sort()
+for i in l2:
+ if i[1]==l3[1]:
+ l4.append(i[0])
+l4.sort()
+for i in l4:
+ print(i)
+```
 ## OUTPUT
+![441637046-4b63a550-aecf-40ff-9e96-e3a38c73c21e](https://github.com/user-attachments/assets/aafbd36a-6586-4599-8b8d-9e4f09876a84)
 
 ## RESULT
+Thus the program has been successfully executed
